@@ -23,7 +23,7 @@ st.markdown("""
 
 # --- API SETUP (SECURE WAY) ---
 # Ye line check karegi ki key 'Secrets' mein hai ya nahi
-api_key = st.secrets.get("AIzaSyAz9A3w21sLRkUel1Sv5xNIs4M9GgDJ_tA")
+api_key = st.secrets.get("AIzaSyA-b6k5nUVB8KPybhvFMVlMFvxp1Ax9AvM")
 
 if not api_key:
     st.error("⚠️ API Key Missing! Setup instructions: Streamlit Cloud Settings > Secrets.")
